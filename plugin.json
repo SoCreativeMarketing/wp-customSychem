@@ -1,0 +1,8 @@
+{
+    "name" : "customSychem",
+    "version" : "1.0",
+    "download_url" : "#",
+    "sections" : {
+        "description" : "Plugin to enable advanced customisation for the Sychem website"
+    }
+}
