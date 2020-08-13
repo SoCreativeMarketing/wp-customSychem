@@ -54,25 +54,17 @@ function cs_move_variable_product_price() { ?>
 
 			if(e.options[e.selectedIndex].value == "")
 			{
-				$('.wrap-price-variation').html('');
+				$('.cs_moved_price').html('');
 			}
 			else
 			{
-				$('.wrap-price-variation').html('');
-            	$('.wrap-price-variation').html($('.woocommerce-variation-price .woocommerce-Price-amount').html());
+				$('.cs_moved_price').html('');
+            	$('.cs_moved_price').html($('.woocommerce-variation-price .woocommerce-Price-amount').html());
 			}
             
         });
     });
 
     </script>
-
-	<style>
-		.woocommerce-Price-amount
-		{
-			display: none;
-		}
-	</style>
-
 <?php }
 add_action( 'wp_footer', 'cs_move_variable_product_price' );

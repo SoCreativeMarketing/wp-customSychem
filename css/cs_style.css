@@ -2,3 +2,13 @@
 {
     font-weight: bold !important;
 }
+
+.woocommerce-variation-price .woocommerce-Price-amount
+{
+    display: none;
+}
+
+.reset_variations
+{
+    display: none !important;
+}
